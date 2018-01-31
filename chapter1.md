@@ -1,6 +1,6 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : SQL basics
+description : The fundamentals for using SQL for Data Science
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -12,7 +12,7 @@ type: MultipleChoiceExercise
 lang: sql
 xp: 50
 skills: 1
-key: 2b4c7c5b69
+key: ab22385126
 ```
 
 If you've used DataCamp to learn [R](https://www.datacamp.com/courses/free-introduction-to-r) or [Python](https://www.datacamp.com/courses/intro-to-python-for-data-science), you'll be familiar with the interface. For SQL, however, there are a few new features you should be aware of.
@@ -54,11 +54,11 @@ Ex().test_mc(3,[msg_bad, msg_bad, msg_success, msg_bad])
 type: NormalExercise
 lang: sql
 xp: 100
+type: NormalExercise
+lang: sql
+xp: 100
 skills: 1
-key: 7d9ec42564
-```
-
-If you submit the code to the right, you'll see that you get two types of errors.
+key: 3ebc3e5438
 
 _SQL_ errors are shown below the editor. These are errors returned by the _SQL_ engine. You should see:
 
@@ -103,3 +103,4 @@ Ex().test_student_typed('SELECT|select', msg='You need to add `SELECT` at the st
 Ex().test_has_columns()
 Ex().test_error()
 ```
+---
