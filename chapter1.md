@@ -2,7 +2,7 @@
 title       : SQL basics
 description : The fundamentals for using SQL for Data Science
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 ---
 ## Onboarding | Tables
